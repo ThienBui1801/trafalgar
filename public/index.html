@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trafalgar</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container mx-auto lg:px-8">
+      <nav class="flex justify-between items-center mb:px-5">
+        <!-- Logo -->
+        <a href="#" class="py-6 z-20">
+          <span class="font-bold text-2xl text-white py-2 px-4 bg-blue-400 rounded-full shadow-lg">T</span>
+          <span class="font-bold text-2xl ml-2">Trafalgar</span>
+        </a>
+
+        <button id="btn-menu" class="invisible tb:visible mb:visible z-20">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd" />
+          </svg>
+        </button>
+
+        <!-- Menu List -->
+        <ul id="menu" class="menu-list invisible lg:visible xl:visible">
+          <li class="py-6 px-4"><a href="#" class="list-item">Home</a></li>
+          <li class="py-6 px-4"><a href="#" class="list-item">Find A Doctor</a></li>
+          <li class="py-6 px-4"><a href="#" class="list-item">Apps</a></li>
+          <li class="py-6 px-4"><a href="#" class="list-item">Testimonials</a></li>
+          <li class="py-6 px-4"><a href="#" class="list-item">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Virtual -->
+  <section>
+    <div class="container mx-auto mt-16 mb:px-5 lg:px-8">
+      <div class="flex justify-between items-center tb:flex-col mb:flex-col">
+        <!-- Text -->
+        <div class="w-1/2 px-14 -mx-14 tb:w-full mb:w-full tb:px-0 mb:px-0 tb:-mx-0 mb:-mx-0">
+          <h2 class="title">Virtual healthcare for you</h2>
+
+          <p class="desc">
+            Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
+          </p>
+
+          <button class="btn-trafalgar animate-bounce">Consult today</button>
+        </div>
+
+        <!-- Images -->
+        <div class="w-1/2 tb:w-full mb:w-full tb:mt-8 mb:mt-8">
+          <img class="w-full hover:animate-ping" src="./images/bg1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section>
+    <div class="container mx-auto mt-32 mb:px-5 lg:px-8">
+      <!-- Title -->
+      <div class="text-center">
+        <h2 class="title">Our services</h2>
+        <p class="desc">
+          We provide to you the best choiches for you. Adjust it to your health needs and make sure your
+          undergo treatment with our highly qualified doctors you can consult with us which type of service is
+          suitable for your health
+        </p>
+      </div>
+
+      <!-- Services item -->
+      <div class="mt-20 flex flex-wrap">
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-search"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Search doctor</h4>
+            <p class="text-sm text-gray-400 font-medium">Choose your doctor from thousands of specialist, general, and
+              trusted hospitals</p>
+          </div>
+        </div>
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-prescription-bottle"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Online pharmacy</h4>
+            <p class="text-sm text-gray-400 font-medium">Buy your medicines with our mobile application with a simple
+              delivery system</p>
+          </div>
+        </div>
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-clipboard-list"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Consultation</h4>
+            <p class="text-sm text-gray-400 font-medium">Free consultation with our trusted doctors and get the best
+              recomendations</p>
+          </div>
+        </div>
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-file-medical-alt"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Details info</h4>
+            <p class="text-sm text-gray-400 font-medium">Free consultation with our trusted doctors and get the best
+              recomendations</p>
+          </div>
+        </div>
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-first-aid"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Emergency care</h4>
+            <p class="text-sm text-gray-400 font-medium">
+              You can get 24/7 urgent care for yourself or your children and your lovely family
+            </p>
+          </div>
+        </div>
+        <div class="w-1/3 tb:w-1/2 mb:w-full p-4">
+          <div class="services-item">
+            <span><i class="text-8xl text-blue-500 fas fa-laptop-medical"></i></span>
+            <h4 class="my-5 font-bold text-2xl">Tracking</h4>
+            <p class="text-sm text-gray-400 font-medium">Track and save your medical history and health data </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services Button -->
+      <div class="text-center my-10 animate-bounce">
+        <button class="btn-trafalgar">Learn more</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Providers -->
+  <section>
+    <div class="container mx-auto mt-32 mb:px-5 lg:px-8">
+      <div class="flex justify-between items-center tb:flex-col mb:flex-col">
+        <!-- Images -->
+        <div class="w-1/2 tb:w-full mb:w-full tb:mt-8 mb:mt-8">
+          <img class="w-full hover:animate-bounce" src="./images/bg2.png" alt="" />
+        </div>
+
+        <!-- Text -->
+        <div class="w-1/2 px-14 -mr-14 tb:w-full mb:w-full tb:px-0 mb:px-0 tb:-mx-0 mb:-mx-0 mb:mt-9">
+          <h2 class="title">Leading healthcare providers</h2>
+
+          <p class="desc">
+            Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To
+            us, it’s not just work. We take pride in the solutions we deliver
+          </p>
+
+          <button class="btn-trafalgar animate-bounce">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section>
+    <div class="container mx-auto mt-32 mb:px-5 lg:px-8">
+      <div class="flex justify-between items-center tb:flex-col mb:flex-col">
+        <!-- Text -->
+        <div class="w-1/2 px-14 tb:w-full mb:w-full tb:px-0 mb:px-0 tb:-mx-0 mb:-mx-0">
+          <h2 class="title">Download our mobile apps</h2>
+
+          <p class="desc">
+            Our dedicated patient engagement app and web portal allow you to access information instantaneously (no
+            tedeous form, long calls, or administrative hassle) and securely
+          </p>
+
+          <button class="btn-trafalgar animate-bounce">Download</button>
+        </div>
+
+        <!-- Images -->
+        <div class="w-1/2 tb:w-full mb:w-full tb:mt-9 mb:mt-9">
+          <img class="w-full hover:animate-pulse" src="./images/bg3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Article -->
+  <section>
+    <div class="container mx-auto mt-32 mb:px-5 lg:px-8">
+      <!-- Title -->
+      <div class="text-center mb-14">
+        <h2 class="title">Our services</h2>
+      </div>
+
+      <!-- Body -->
+      <div class="flex justify-between items-center tb:flex-col mb:flex-col mb:justify-center">
+        <div class="w-1/3 tb:w-full mb:w-full p-3 -mx-3">
+          <div class="article-item">
+            <div class="bg-white shadow-lg hover:shadow-blue-300 rounded-b-2xl">
+              <img class="rounded-t-2xl" src="./images/img1.png" alt="" />
+              <div class="p-8">
+                <h3 class="font-bold text-xl">Disease detection, check up in the laboratory</h3>
+                <p class="text-base text-gray-400 my-6">
+                  In this case, the role of the health laboratory is very important to do
+                  a disease detection...
+                </p>
+                <a href="#" class="article-link">
+                  Read more
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/3 tb:w-full mb:w-full p-3 -mx-3">
+          <div class="article-item">
+            <div class="bg-white shadow-lg hover:shadow-blue-300 rounded-b-2xl">
+              <img class="rounded-t-2xl" src="./images/img2.png" alt="" />
+              <div class="p-8">
+                <h3 class="font-bold text-xl">Herbal medicines that are safe for consumption</h3>
+                <p class="text-base text-gray-400 my-6">
+                  Herbal medicine is very widely used at this time because of its very good for your health...
+                </p>
+                <a href="#" class="article-link">
+                  Read more
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-1/3 tb:w-full mb:w-full p-3 -mx-3">
+          <div class="article-item">
+            <div class="bg-white shadow-lg hover:shadow-blue-300 rounded-b-2xl">
+              <img class="rounded-t-2xl" src="./images/img3.png" alt="" />
+              <div class="p-8">
+                <h3 class="font-bold text-xl">Natural care for healthy facial your skin</h3>
+                <p class="text-base text-gray-400 my-6">
+                  A healthy lifestyle should start from now and also for your skin health. There are some...
+                </p>
+                <a href="#" class="article-link">
+                  Read more
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article Button -->
+      <div class="text-center my-10 animate-bounce">
+        <button class="btn-trafalgar">View all</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-sky-600 to-blue-400 h-auto">
+    <div class="container mx-auto mt-32 mb:px-5 lg:px-8">
+      <div class="py-40 flex justify-between flex-wrap mb:flex-col">
+        <div class="w-2/5 tb:w-1/2 mb:w-full px-3 -mx-3 my-3">
+          <div>
+            <!-- Logo -->
+            <a href="#" class="py-6 z-20">
+              <span class="font-bold text-2xl text-white py-2 px-4 bg-blue-400 rounded-full shadow-lg">T</span>
+              <span class="font-bold text-2xl ml-2 text-white">Trafalgar</span>
+            </a>
+            <p class="text-white font-medium tracking-wide my-9">
+              Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone
+            </p>
+            <p class="text-white font-medium tracking-wide my-9 text-xs">©Trafalgar PTY LTD 2020. All rights reserved</p>
+          </div>
+        </div>
+        <div class="w-1/5 tb:w-1/2 mb:w-full px-3 -mx-3 my-3">
+          <h3 class="font-bold text-xl text-white">Company</h3>
+          <ul>
+            <li class="py-3"><a href="#" class="footer-link">About</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Testimonials</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Find a doctor</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Apps</a></li>
+          </ul>
+        </div>
+        <div class="w-1/5 tb:w-1/2 mb:w-full px-3 -mx-3 my-3">
+          <h3 class="font-bold text-xl text-white">Region</h3>
+          <ul>
+            <li class="py-3"><a href="#" class="footer-link">Indonesia</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Singapore</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Hongkong</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Canada</a></li>
+          </ul>
+        </div>
+        <div class="w-1/5 tb:w-1/2 mb:w-full px-3 -mx-3 my-3">
+          <h3 class="font-bold text-xl text-white">Help</h3>
+          <ul>
+            <li class="py-3"><a href="#" class="footer-link">Help center</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Contact support</a></li>
+            <li class="py-3"><a href="#" class="footer-link">Instructions</a></li>
+            <li class="py-3"><a href="#" class="footer-link">How it works</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="./main.js"></script>
+</body>
+
+</html>
